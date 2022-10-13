@@ -101,7 +101,6 @@ gap: 30px;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-
     text-decoration: none;
     color: var(--pale-color); 
     font-weight: 500;
@@ -120,6 +119,7 @@ gap: 30px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    background-position: center;
     background-color: var(--hero-color);
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
     url(../img/hero.jpg);
@@ -200,7 +200,11 @@ gap: 30px;
     color: var(--pale-color)
 }
 .benefits-icon{
-    padding: 25px 100px;
+    height: 120px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
     background-color: var(--section-color);
     border-radius: 4px;
@@ -280,7 +284,7 @@ margin-right: 30px;
     border-radius: 50%;
     color: #AFB1B8;
 }
-.network-item:hover
+.network-item:hover,
 .network-item:focus{
     background-color: var(--accent-color);
     color: var(--contrast-color);
@@ -304,11 +308,12 @@ margin-right: 30px;
 justify-content: space-between;
 }
 .customer-link{
+    height: 92px;
+    width: 170px;
  display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 31px;
-      border: 1px solid #AFB1B8;
+   border: 1px solid #AFB1B8;
 border-radius: 4px;
 color: #AFB1B8;
 }
@@ -399,6 +404,7 @@ color: var(--contrast-color);
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 .menu-list-button{
 
@@ -414,11 +420,7 @@ color: var(--contrast-color);
     cursor: pointer;
     letter-spacing: 0.03em;
     padding: 6px 25px;
-   
     border-radius: 4px;
-}
-.menu-list-item{
-        margin-left: 8px;
 }
 .menu-list-button:hover,
 .menu-list-button:focus,
